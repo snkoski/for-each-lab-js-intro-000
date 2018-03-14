@@ -1,3 +1,3 @@
 function iterativeLog(array) {
-  array.forEach(elements => {console.log(`${array.key()}: ${element}`);});
+  array.forEach((element, index, array) => {console.log(`${index}: ${element}`);});
 }
